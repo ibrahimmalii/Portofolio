@@ -20,6 +20,16 @@
     }
 }
 
+nav{
+    background-color: var(--mc) !important;
+
+    .navbar-toggler{
+        // color: var(--mc);
+        color: black !important;
+        background-color:var(--sc)
+    }
+}
+
 #home-list , #owner{
     color:var(--sc) !important;
 }
@@ -48,9 +58,11 @@
 }
 
 
+
 .skill-container{
     background-color: var(--mc);
         button{
-            background-color: var(--btnc);
+            background-color: var(--sc);
         }
 }
+

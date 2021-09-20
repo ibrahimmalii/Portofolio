@@ -18,6 +18,15 @@
   color: #fff;
 }
 
+nav {
+  background-color: var(--mc) !important;
+}
+
+nav .navbar-toggler {
+  color: black !important;
+  background-color: var(--sc);
+}
+
 #home-list, #owner {
   color: var(--sc) !important;
 }
@@ -45,6 +54,6 @@
 }
 
 .skill-container button {
-  background-color: var(--btnc);
+  background-color: var(--sc);
 }
 /*# sourceMappingURL=default-theme.css.map */

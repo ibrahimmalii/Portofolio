@@ -5,7 +5,7 @@
 }
 
 .option-box {
-  top: 100px;
+  top: 56px;
   left: 0;
   z-index: 9999;
 }
@@ -65,5 +65,10 @@ nav i {
   width: 100px;
   border-radius: 20px;
   margin: 0 8px 8px 0;
+}
+
+.education .card-title {
+  height: 230px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
