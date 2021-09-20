@@ -12,7 +12,6 @@
 
 .option-box .color-option {
   float: left;
-  color: #fff;
   width: 150px;
   display: none;
 }
@@ -22,7 +21,8 @@
   height: 20px;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 3px;
+  margin-right: 12px;
+  cursor: pointer;
 }
 
 .option-box .gear-check {
