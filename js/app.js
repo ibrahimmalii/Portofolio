@@ -8,7 +8,8 @@ var colorList = $('.color-option ul li');
 colorList
     .eq(0).css('background-color' , '#FEBB48').end()
     .eq(1).css('background-color' , '#36487a').end()
-    .eq(2).css('background-color' , '#001a61');
+    .eq(2).css('background-color' , '#001a61').end()
+    .eq(3).css('background-color' , '#f10b31');
 
 colorList.click(function(){
     $('link[href*="theme"]').attr('href' , $(this).attr('data-value'));
