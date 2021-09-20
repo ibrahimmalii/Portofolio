@@ -1,0 +1,89 @@
+:root{
+    --mc : rgb(34, 34, 34);
+    --sc : rgb(242, 107, 80);
+    --tc : rgb(230, 221, 221);
+}
+
+// Tool Box Section
+.option-box{
+    top: 100px;
+    left:0;
+    z-index: 9999;
+    
+    .color-option{
+        float: left;
+        // background-color: #333;
+        color: #fff;
+        width: 150px;
+        // border: 3px solid var(--sc);
+        display: none;
+    }
+
+    li{
+        width: 20px;
+        height: 20px;
+        // background-color: var(--sc);
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 3px;
+    }
+
+    .gear-check{
+        background-color:var(--sc);
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+#home-list , #owner{
+    // color:var(--sc) !important;
+}
+
+nav{
+    i{
+        margin-right: 5px;
+    }
+}
+
+
+.person-name{
+    height: 500px;
+    // background-color: var(--mc);
+    font-family:  sans-serif;
+    padding-top: 70px;
+
+    .h1{
+        // color: var(--sc);
+    }
+
+    .img-container{
+        width: 80%;
+        height: 75%;
+        border-radius: 9px 81px;
+        overflow: hidden;
+    }
+
+    img{
+        height : 100%;
+        width: 100%;
+    }
+}
+
+.contact{
+    // background-color: var(--tc);
+    i{
+        // color: var(--sc);
+        margin-right: 5px;
+    }
+}
+
+.skills{
+    padding-left: 20px;
+    button{
+        width:100px;
+        // background-color: var(--sc);
+        border-radius: 20px;
+        margin:0 8px 8px 0;
+    }
+}
+

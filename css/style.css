@@ -1,0 +1,69 @@
+:root {
+  --mc: rgb(34, 34, 34);
+  --sc: rgb(242, 107, 80);
+  --tc: rgb(230, 221, 221);
+}
+
+.option-box {
+  top: 100px;
+  left: 0;
+  z-index: 9999;
+}
+
+.option-box .color-option {
+  float: left;
+  color: #fff;
+  width: 150px;
+  display: none;
+}
+
+.option-box li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.option-box .gear-check {
+  background-color: var(--sc);
+  color: #fff;
+  cursor: pointer;
+}
+
+nav i {
+  margin-right: 5px;
+}
+
+.person-name {
+  height: 500px;
+  font-family: sans-serif;
+  padding-top: 70px;
+}
+
+.person-name .img-container {
+  width: 80%;
+  height: 75%;
+  border-radius: 9px 81px;
+  overflow: hidden;
+}
+
+.person-name img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact i {
+  margin-right: 5px;
+}
+
+.skills {
+  padding-left: 20px;
+}
+
+.skills button {
+  width: 100px;
+  border-radius: 20px;
+  margin: 0 8px 8px 0;
+}
+/*# sourceMappingURL=style.css.map */
