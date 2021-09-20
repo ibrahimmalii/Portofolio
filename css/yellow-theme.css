@@ -1,0 +1,54 @@
+:root {
+  --mc: #f3e2e9;
+  --sc: #001a61;
+  --tc: #5c9bda;
+}
+
+.option-box .color-option {
+  background-color: #333;
+  border: 3px solid var(--sc);
+}
+
+.option-box li {
+  background-color: var(--sc);
+}
+
+.option-box .gear-check {
+  background-color: var(--sc);
+  color: #fff;
+}
+
+nav {
+  background-color: var(--mc) !important;
+}
+
+#home-list, #owner {
+  color: var(--sc) !important;
+}
+
+.person-name {
+  background-color: var(--mc);
+}
+
+.person-name .hello {
+  color: var(--sc) !important;
+}
+
+.person-name .img-container {
+  border: 1px solid var(--sc);
+  -webkit-box-shadow: 6px 6px 4px #d4c3c3;
+          box-shadow: 6px 6px 4px #d4c3c3;
+}
+
+.contact i {
+  color: var(--sc);
+}
+
+.skill-container {
+  background-color: var(--mc);
+}
+
+.skill-container button {
+  background-color: var(--sc);
+}
+/*# sourceMappingURL=yellow-theme.css.map */
