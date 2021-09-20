@@ -1,7 +1,6 @@
 :root{
     --mc : #e9d8b9;
     --sc : #36487a;
-    --tc : #5c9bda;
 }
 
 .option-box{
@@ -22,6 +21,11 @@
 
 nav{
     background-color: var(--mc) !important;
+
+    .navbar-toggler{
+        color: black !important;
+        background-color:var(--sc)
+    }
 }
 
 #home-list , #owner{
@@ -34,22 +38,28 @@ nav{
     .hello{
         color : var(--sc) !important;
     }
+
+    .name{
+        color : black;
+    }
+
+    .h3{
+        color : black;
+    }
+
     .img-container{
         border: 1px solid var(--sc);
         box-shadow: 6px 6px 4px #d4c3c3;
     }
-    // h1{
-    //     color: var(--sc);
-    // }
-    
 }
 
 .contact{
-    // background-color: var(--tc);
+    background-color: var(--mc);
     i{
         color: var(--sc);
     }
 }
+
 
 
 .skill-container{
@@ -57,4 +67,48 @@ nav{
         button{
             background-color: var(--sc);
         }
+}
+
+
+.education-header {
+    .h1{
+        color : var(--sc);
+    }
+}
+
+.skills{
+    .h1{
+        color : var(--sc)
+    }
+}
+
+.certificate{
+    .h1{
+        color: var(--sc);
+    }
+
+    li{
+        line-height: 2.5;
+    }
+
+    i{
+        color: var(--sc);
+    }
+
+}
+
+.projects{
+    .h1{
+        color: var(--sc);
+    }
+}
+
+.project-image {
+    .carousel-indicators button {
+        background-color: var(--mc);
+    }
+
+    .carousel-caption {
+        color: var(--sc);
+    }
 }

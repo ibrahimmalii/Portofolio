@@ -1,7 +1,6 @@
 :root {
   --mc: #212529;
-  --sc: #FEBB48;
-  --tc: #212529;
+  --sc: #868484;
 }
 
 .option-box .color-option {
@@ -39,10 +38,26 @@ nav .navbar-toggler {
   color: var(--sc) !important;
 }
 
+.person-name .name {
+  color: white;
+}
+
+.person-name .h3 {
+  color: white;
+}
+
 .person-name .img-container {
   border: 1px solid var(--sc);
   -webkit-box-shadow: 6px 6px 4px #d4c3c3;
           box-shadow: 6px 6px 4px #d4c3c3;
+}
+
+.contact {
+  background-color: var(--mc);
+}
+
+.contact li {
+  color: white;
 }
 
 .contact i {
@@ -55,5 +70,37 @@ nav .navbar-toggler {
 
 .skill-container button {
   background-color: var(--sc);
+}
+
+.education-header .h1 {
+  color: var(--sc);
+}
+
+.skills .h1 {
+  color: var(--sc);
+}
+
+.certificate .h1 {
+  color: var(--sc);
+}
+
+.certificate li {
+  line-height: 2.5;
+}
+
+.certificate i {
+  color: var(--sc);
+}
+
+.projects .h1 {
+  color: var(--sc);
+}
+
+.project-image .carousel-indicators button {
+  background-color: var(--mc);
+}
+
+.project-image .carousel-caption {
+  color: var(--sc);
 }
 /*# sourceMappingURL=black-theme.css.map */

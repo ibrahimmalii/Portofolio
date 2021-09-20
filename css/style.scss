@@ -1,22 +1,22 @@
-:root{
-    --mc : rgb(34, 34, 34);
-    --sc : rgb(242, 107, 80);
-    --tc : rgb(230, 221, 221);
+:root {
+    --mc: rgb(34, 34, 34);
+    --sc: rgb(242, 107, 80);
+    --tc: rgb(230, 221, 221);
 }
 
 // Tool Box Section
-.option-box{
+.option-box {
     top: 56px;
-    left:0;
+    left: 0;
     z-index: 9999;
-    
-    .color-option{
+
+    .color-option {
         float: left;
-        width: 150px;
+        width: 170px;
         display: none;
     }
 
-    li{
+    li {
         width: 20px;
         height: 20px;
         border-radius: 50%;
@@ -25,69 +25,109 @@
         cursor: pointer;
     }
 
-    .gear-check{
-        background-color:var(--sc);
+    .gear-check {
+        background-color: var(--sc);
         color: #fff;
         cursor: pointer;
     }
 }
 
-#home-list , #owner{
+#home-list,
+#owner {
     // color:var(--sc) !important;
 }
 
-nav{
-    i{
+nav {
+    i {
         margin-right: 5px;
     }
 }
 
 
-.person-name{
+.person-name {
     height: 500px;
-    // background-color: var(--mc);
-    font-family:  sans-serif;
+    font-family: sans-serif;
     padding-top: 70px;
 
-    .h1{
-        // color: var(--sc);
-    }
 
-    .img-container{
+    .img-container {
         width: 80%;
         height: 75%;
         border-radius: 9px 81px;
         overflow: hidden;
     }
 
-    img{
-        height : 100%;
+    img {
+        height: 100%;
         width: 100%;
     }
 }
 
-.contact{
+.contact {
+
     // background-color: var(--tc);
-    i{
+    i {
         // color: var(--sc);
         margin-right: 5px;
     }
 }
 
-.skills{
-    padding-left: 20px;
-    button{
-        width:100px;
+.skills {
+    padding-left: 30px;
+
+    .h1 {
+        padding-left: 35px;
+    }
+
+    button {
+        width: 100px;
         // background-color: var(--sc);
         border-radius: 20px;
-        margin:0 8px 8px 0;
+        margin: 0 8px 8px 0;
     }
 }
 
-.education{
-    .card-title{
-        height : 230px;
-        overflow : hidden;
+.education {
+    .card-title {
+        height: 230px;
+        overflow: hidden;
     }
 }
 
+.person-name,
+.education,
+.certificate,
+.projects {
+    margin-bottom: 100px;
+}
+
+#contact{
+    margin-top: 200px;
+}
+
+
+.project-image {
+    color: black !important;
+
+    img {
+
+        height: 500px
+    }
+
+    .carousel-indicators button {
+        width: 41px;
+        height: 7px;
+        position: relative;
+        top: 40px;
+        // background-color: black;
+    }
+
+    .carousel-caption {
+        color: #f90303;
+        font-size: 30px;
+        position: relative;
+        top: 5px;
+        left: 0%;
+    }
+
+}

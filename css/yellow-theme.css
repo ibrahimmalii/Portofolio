@@ -22,6 +22,11 @@ nav {
   background-color: var(--mc) !important;
 }
 
+nav .navbar-toggler {
+  color: black !important;
+  background-color: var(--sc);
+}
+
 #home-list, #owner {
   color: var(--sc) !important;
 }
@@ -34,10 +39,22 @@ nav {
   color: var(--sc) !important;
 }
 
+.person-name .name {
+  color: black;
+}
+
+.person-name .h3 {
+  color: black;
+}
+
 .person-name .img-container {
   border: 1px solid var(--sc);
   -webkit-box-shadow: 6px 6px 4px #d4c3c3;
           box-shadow: 6px 6px 4px #d4c3c3;
+}
+
+.contact {
+  background-color: var(--mc);
 }
 
 .contact i {
@@ -50,5 +67,37 @@ nav {
 
 .skill-container button {
   background-color: var(--sc);
+}
+
+.education-header .h1 {
+  color: var(--sc);
+}
+
+.skills .h1 {
+  color: var(--sc);
+}
+
+.certificate .h1 {
+  color: var(--sc);
+}
+
+.certificate li {
+  line-height: 2.5;
+}
+
+.certificate i {
+  color: var(--sc);
+}
+
+.projects .h1 {
+  color: var(--sc);
+}
+
+.project-image .carousel-indicators button {
+  background-color: var(--mc);
+}
+
+.project-image .carousel-caption {
+  color: var(--sc);
 }
 /*# sourceMappingURL=yellow-theme.css.map */

@@ -12,7 +12,7 @@
 
 .option-box .color-option {
   float: left;
-  width: 150px;
+  width: 170px;
   display: none;
 }
 
@@ -58,7 +58,11 @@ nav i {
 }
 
 .skills {
-  padding-left: 20px;
+  padding-left: 30px;
+}
+
+.skills .h1 {
+  padding-left: 35px;
 }
 
 .skills button {
@@ -70,5 +74,39 @@ nav i {
 .education .card-title {
   height: 230px;
   overflow: hidden;
+}
+
+.person-name,
+.education,
+.certificate,
+.projects {
+  margin-bottom: 100px;
+}
+
+#contact {
+  margin-top: 200px;
+}
+
+.project-image {
+  color: black !important;
+}
+
+.project-image img {
+  height: 500px;
+}
+
+.project-image .carousel-indicators button {
+  width: 41px;
+  height: 7px;
+  position: relative;
+  top: 40px;
+}
+
+.project-image .carousel-caption {
+  color: #f90303;
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  left: 0%;
 }
 /*# sourceMappingURL=style.css.map */
