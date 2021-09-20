@@ -31,6 +31,11 @@
   cursor: pointer;
 }
 
+#home-list,
+#owner {
+  color: var(--sc) !important;
+}
+
 nav i {
   margin-right: 5px;
 }
@@ -85,10 +90,6 @@ nav i {
 
 #contact {
   margin-top: 200px;
-}
-
-.project-image {
-  color: black !important;
 }
 
 .project-image img {

@@ -92,6 +92,10 @@ nav .navbar-toggler {
   color: var(--sc);
 }
 
+.project-image .h1 {
+  color: var(--sc);
+}
+
 .project-image .carousel-indicators button {
   background-color: var(--mc);
 }

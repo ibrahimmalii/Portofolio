@@ -105,6 +105,10 @@ nav{
 }
 
 .project-image {
+
+    .h1{
+        color : var(--sc)
+    }
     .carousel-indicators button {
         background-color: var(--sc);
     }
