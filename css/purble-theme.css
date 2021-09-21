@@ -14,7 +14,7 @@
 
 .option-box .gear-check {
   background-color: var(--sc);
-  color: #fff;
+  color: var(--mc);
 }
 
 nav {
@@ -48,8 +48,8 @@ nav .navbar-toggler {
 
 .person-name .img-container {
   border: 1px solid var(--sc);
-  -webkit-box-shadow: 6px 6px 4px #d4c3c3;
-          box-shadow: 6px 6px 4px #d4c3c3;
+  -webkit-box-shadow: 6px 6px 4px var(--sc);
+          box-shadow: 6px 6px 4px var(--sc);
 }
 
 .contact {
@@ -76,12 +76,16 @@ nav .navbar-toggler {
   color: var(--sc);
 }
 
+.certificate .certificate-content {
+  border: 1px solid var(--sc);
+}
+
 .certificate .h1 {
   color: var(--sc);
 }
 
-.certificate li {
-  line-height: 2.5;
+.certificate .card-body {
+  background-color: var(--mc);
 }
 
 .certificate i {
@@ -101,6 +105,10 @@ nav .navbar-toggler {
 }
 
 .project-image .carousel-caption {
+  color: var(--sc);
+}
+
+footer .h1 {
   color: var(--sc);
 }
 /*# sourceMappingURL=purble-theme.css.map */

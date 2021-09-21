@@ -1,6 +1,6 @@
 $('.gear-check').click(function(){
     console.log('ok')
-    $('.color-option').fadeToggle(100);
+    $('.color-option').toggle(100);
 });
 
 // Change theme 
@@ -14,5 +14,4 @@ colorList
 
 colorList.click(function(){
     $('link[href*="theme"]').attr('href' , $(this).attr('data-value'));
-    // console.log($(this).attr('data-value'));
 })

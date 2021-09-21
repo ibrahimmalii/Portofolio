@@ -1,5 +1,5 @@
 :root{
-    --mc : #F6F6F6;
+    --mc : #f1eeee;
     --sc : #FEBB48;
     --tc : #212529;
 }
@@ -16,7 +16,7 @@
 
     .gear-check{
         background-color:var(--sc);
-        color: #fff;
+        color: var(--mc);
     }
 }
 
@@ -50,7 +50,7 @@ nav{
 
     .img-container{
         border: 1px solid var(--sc);
-        box-shadow: 6px 6px 4px #d4c3c3;
+        box-shadow: 6px 6px 4px var(--sc);
     }
 }
 
@@ -84,12 +84,16 @@ nav{
 }
 
 .certificate{
+    .certificate-content{
+        border:1px solid var(--sc);
+    }
+
     .h1{
         color: var(--sc);
     }
 
-    li{
-        line-height: 2.5;
+    .card-body{
+        background-color: var(--mc);
     }
 
     i{
@@ -115,5 +119,11 @@ nav{
 
     .carousel-caption {
         color: var(--sc);
+    }
+}
+
+footer{
+    .h1{
+        color:var(--sc)
     }
 }

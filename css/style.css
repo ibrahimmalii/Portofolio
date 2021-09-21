@@ -27,8 +27,13 @@
 
 .option-box .gear-check {
   background-color: var(--sc);
-  color: #fff;
+  color: var(--mc);
   cursor: pointer;
+  opacity: .5;
+}
+
+.option-box .gear-check:hover {
+  opacity: 1;
 }
 
 #home-list,
@@ -81,6 +86,11 @@ nav i {
   overflow: hidden;
 }
 
+.certificate li {
+  line-height: 2.3;
+  font-weight: bold;
+}
+
 .person-name,
 .education,
 .certificate,
@@ -109,5 +119,13 @@ nav i {
   position: relative;
   top: 5px;
   left: 0%;
+}
+
+i {
+  cursor: pointer;
+}
+
+footer i {
+  margin-right: 15px;
 }
 /*# sourceMappingURL=style.css.map */

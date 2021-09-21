@@ -9,13 +9,13 @@
     top: 56px;
     left: 0;
     z-index: 9999;
-
+    
     .color-option {
         float: left;
         width: 170px;
         display: none;
     }
-
+    
     li {
         width: 20px;
         height: 20px;
@@ -27,8 +27,12 @@
 
     .gear-check {
         background-color: var(--sc);
-        color: #fff;
+        color: var(--mc);
         cursor: pointer;
+        opacity: .5;
+        &:hover{
+            opacity : 1;
+        }
     }
 }
 
@@ -90,6 +94,14 @@ nav {
     }
 }
 
+.certificate{
+    li{
+        line-height: 2.3;
+        font-weight: bold;
+    }
+
+}
+
 .person-name,
 .education,
 .certificate,
@@ -123,4 +135,14 @@ nav {
         left: 0%;
     }
 
+}
+
+i{
+    cursor : pointer;
+}
+
+footer{
+    i{
+        margin-right: 15px;
+    }
 }
