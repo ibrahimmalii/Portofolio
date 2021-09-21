@@ -109,7 +109,15 @@ nav .navbar-toggler {
   color: var(--sc);
 }
 
+footer {
+  background-color: var(--mc);
+}
+
 footer .h1 {
+  color: var(--sc);
+}
+
+footer i {
   color: var(--sc);
 }
 /*# sourceMappingURL=yellow-theme.css.map */

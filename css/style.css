@@ -63,10 +63,6 @@ nav i {
   width: 100%;
 }
 
-.contact i {
-  margin-right: 5px;
-}
-
 .skills {
   padding-left: 30px;
 }
@@ -98,10 +94,6 @@ nav i {
   margin-bottom: 100px;
 }
 
-#contact {
-  margin-top: 200px;
-}
-
 .project-image img {
   height: 500px;
 }
@@ -123,6 +115,15 @@ nav i {
 
 i {
   cursor: pointer;
+}
+
+#contact {
+  margin-top: 100px;
+  padding-top: 40px;
+}
+
+.contact i {
+  margin-right: 5px;
 }
 
 footer i {
