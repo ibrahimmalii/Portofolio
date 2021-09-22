@@ -38,6 +38,10 @@ nav .navbar-toggler {
   color: var(--sc) !important;
 }
 
+.person-name .small {
+  color: black;
+}
+
 .person-name .name {
   color: black;
 }
